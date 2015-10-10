@@ -1,0 +1,88 @@
+<html>
+<head>
+
+	<title>Learning App</title>
+	<link rel="icon" href="images/icon.png">
+
+	<style>
+		body{
+			width:100%;
+			background-image: url("images/back.jpg");
+			background-position: right;
+			
+			
+		}			
+
+		
+		.logo{
+			width: 15%;
+			margin: 5%;
+			margin-left: 7%;
+			-webkit-animation: logo_animate 2s;
+			animation: logo_animate 2s;
+			width:22%;
+			
+		}
+
+		a img{
+			border-radius: 50%;
+			border: 10px solid #8adef6;
+			margin-left: 9%;
+			width: 10%
+			height: 25%;
+			opacity: 0;
+			-webkit-animation: btn 2s;
+			animation: btn 2s;
+			opacity: 1;
+			
+		
+		}
+
+		a img:hover{
+			border: 10px solid #7bdd54;
+		}
+
+
+		@-webkit-keyframes logo_animate{
+			from{width:15%;}
+			to{width: 22%;}
+
+		}
+
+		@keyframes logo_animate{
+			from{width:15%;}
+			to{width: 22%;}
+
+		}
+
+		@-webkit-keyframes btn{
+			from{opacity:0;}
+			to{opacity: 1;}
+
+		}
+		@keyframes btn{
+			from{opacity:0;}
+			to{opacity: 1;}
+
+		}
+
+	</style>
+
+</head>
+
+
+
+<body>
+
+	<img class="logo" src="images/logo.png">
+	<div>
+		<a href="learn.html#alif_mada"><img src="images/learn.jpg"></a>
+		<a href="quiz.html#q1"><img src="images/quiz1.jpg"></a>
+		
+
+	</div>
+
+</body>
+
+
+</html>
